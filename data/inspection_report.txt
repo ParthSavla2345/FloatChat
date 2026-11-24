@@ -1,0 +1,130 @@
+
+======================================================================
+  FloatChat — NetCDF Inspection Report
+======================================================================
+  File : D:\FloatChat\archive\2022_01_20220101_prof.nc
+  Size : 3.7 MB
+======================================================================
+
+📐 DIMENSIONS
+----------------------------------------
+  N_PROF                                 77
+  N_PARAM                                 3
+  N_LEVELS                            1,010
+  N_CALIB                                 3
+  N_HISTORY                               0
+
+📦 VARIABLES  (64 total)
+----------------------------------------------------------------------
+  Name                                Shape                DType        Dims
+  ----------------------------------- -------------------- ------------ ----
+  DATA_TYPE                           ()                   |S16         
+  FORMAT_VERSION                      ()                   |S4          
+  HANDBOOK_VERSION                    ()                   |S4          
+  REFERENCE_DATE_TIME                 ()                   |S14         
+  DATE_CREATION                       ()                   |S14         
+  DATE_UPDATE                         ()                   |S14         
+  PLATFORM_NUMBER                     (77,)                |S8          N_PROF
+  PROJECT_NAME                        (77,)                |S64         N_PROF
+  PI_NAME                             (77,)                |S64         N_PROF
+  STATION_PARAMETERS                  (77, 3)              |S16         N_PROF, N_PARAM
+  CYCLE_NUMBER                        (77,)                int32        N_PROF
+  DIRECTION                           (77,)                |S1          N_PROF
+  DATA_CENTRE                         (77,)                |S2          N_PROF
+  DC_REFERENCE                        (77,)                |S32         N_PROF
+  DATA_STATE_INDICATOR                (77,)                |S4          N_PROF
+  DATA_MODE                           (77,)                |S1          N_PROF
+  PLATFORM_TYPE                       (77,)                |S32         N_PROF
+  FLOAT_SERIAL_NO                     (77,)                |S32         N_PROF
+  FIRMWARE_VERSION                    (77,)                |S32         N_PROF
+  WMO_INST_TYPE                       (77,)                |S4          N_PROF
+  JULD                                (77,)                datetime64[ns] N_PROF
+  JULD_QC                             (77,)                |S1          N_PROF
+  JULD_LOCATION                       (77,)                datetime64[ns] N_PROF
+  LATITUDE                            (77,)                float64      N_PROF
+  LONGITUDE                           (77,)                float64      N_PROF
+  POSITION_QC                         (77,)                |S1          N_PROF
+  POSITIONING_SYSTEM                  (77,)                |S8          N_PROF
+  PROFILE_PRES_QC                     (77,)                |S1          N_PROF
+  PROFILE_TEMP_QC                     (77,)                |S1          N_PROF
+  PROFILE_PSAL_QC                     (77,)                |S1          N_PROF
+  VERTICAL_SAMPLING_SCHEME            (77,)                |S256        N_PROF
+  CONFIG_MISSION_NUMBER               (77,)                int32        N_PROF
+  PRES                                (77, 1010)           float32      N_PROF, N_LEVELS
+  PRES_QC                             (77, 1010)           |S1          N_PROF, N_LEVELS
+  PRES_ADJUSTED                       (77, 1010)           float32      N_PROF, N_LEVELS
+  PRES_ADJUSTED_QC                    (77, 1010)           |S1          N_PROF, N_LEVELS
+  PRES_ADJUSTED_ERROR                 (77, 1010)           float32      N_PROF, N_LEVELS
+  TEMP                                (77, 1010)           float32      N_PROF, N_LEVELS
+  TEMP_QC                             (77, 1010)           |S1          N_PROF, N_LEVELS
+  TEMP_ADJUSTED                       (77, 1010)           float32      N_PROF, N_LEVELS
+  TEMP_ADJUSTED_QC                    (77, 1010)           |S1          N_PROF, N_LEVELS
+  TEMP_ADJUSTED_ERROR                 (77, 1010)           float32      N_PROF, N_LEVELS
+  PSAL                                (77, 1010)           float32      N_PROF, N_LEVELS
+  PSAL_QC                             (77, 1010)           |S1          N_PROF, N_LEVELS
+  PSAL_ADJUSTED                       (77, 1010)           float32      N_PROF, N_LEVELS
+  PSAL_ADJUSTED_QC                    (77, 1010)           |S1          N_PROF, N_LEVELS
+  PSAL_ADJUSTED_ERROR                 (77, 1010)           float32      N_PROF, N_LEVELS
+  PARAMETER                           (77, 3, 3)           |S16         N_PROF, N_CALIB, N_PARAM
+  SCIENTIFIC_CALIB_EQUATION           (77, 3, 3)           |S256        N_PROF, N_CALIB, N_PARAM
+  SCIENTIFIC_CALIB_COEFFICIENT        (77, 3, 3)           |S256        N_PROF, N_CALIB, N_PARAM
+  SCIENTIFIC_CALIB_COMMENT            (77, 3, 3)           |S256        N_PROF, N_CALIB, N_PARAM
+  SCIENTIFIC_CALIB_DATE               (77, 3, 3)           |S14         N_PROF, N_CALIB, N_PARAM
+  HISTORY_INSTITUTION                 (0, 77)              |S4          N_HISTORY, N_PROF
+  HISTORY_STEP                        (0, 77)              |S4          N_HISTORY, N_PROF
+  HISTORY_SOFTWARE                    (0, 77)              |S4          N_HISTORY, N_PROF
+  HISTORY_SOFTWARE_RELEASE            (0, 77)              |S4          N_HISTORY, N_PROF
+  HISTORY_REFERENCE                   (0, 77)              |S64         N_HISTORY, N_PROF
+  HISTORY_DATE                        (0, 77)              |S14         N_HISTORY, N_PROF
+  HISTORY_ACTION                      (0, 77)              |S4          N_HISTORY, N_PROF
+  HISTORY_PARAMETER                   (0, 77)              |S16         N_HISTORY, N_PROF
+  HISTORY_START_PRES                  (0, 77)              float32      N_HISTORY, N_PROF
+  HISTORY_STOP_PRES                   (0, 77)              float32      N_HISTORY, N_PROF
+  HISTORY_PREVIOUS_VALUE              (0, 77)              float32      N_HISTORY, N_PROF
+  HISTORY_QCTEST                      (0, 77)              |S16         N_HISTORY, N_PROF
+
+🌐 GLOBAL ATTRIBUTES
+----------------------------------------------------------------------
+  title                               Argo float vertical profile
+  institution                         FR GDAC
+  source                              Argo float
+  history                             2026-02-04T14:54:30Z creation
+  references                          http://www.argodatamgt.org/Documentation
+  user_manual_version                 3.1
+  Conventions                         Argo-3.1 CF-1.6
+  featureType                         trajectoryProfile
+
+✅ ARGO VARIABLES PRESENT  (25)
+----------------------------------------
+  ✓  LATITUDE
+  ✓  LONGITUDE
+  ✓  JULD
+  ✓  JULD_QC
+  ✓  PRES
+  ✓  PRES_QC
+  ✓  PRES_ADJUSTED
+  ✓  PRES_ADJUSTED_QC
+  ✓  TEMP
+  ✓  TEMP_QC
+  ✓  TEMP_ADJUSTED
+  ✓  TEMP_ADJUSTED_QC
+  ✓  PSAL
+  ✓  PSAL_QC
+  ✓  PSAL_ADJUSTED
+  ✓  PSAL_ADJUSTED_QC
+  ✓  PLATFORM_NUMBER
+  ✓  CYCLE_NUMBER
+  ✓  DIRECTION
+  ✓  DATA_MODE
+  ✓  POSITION_QC
+  ✓  PROFILE_PRES_QC
+  ✓  PROFILE_TEMP_QC
+  ✓  PROFILE_PSAL_QC
+  ✓  STATION_PARAMETERS
+
+❌ ARGO VARIABLES MISSING  (1)
+----------------------------------------
+  ✗  PARAMETER_DATA_MODE
+
+======================================================================
+
