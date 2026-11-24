@@ -1,0 +1,30 @@
+
+============================================================
+DATABASE VALIDATION REPORT
+============================================================
+
+Parquet source: D:\FloatChat\backend\data\processed\argo_profiles.parquet
+DuckDB database: D:\FloatChat\backend\data\processed\floatchat.duckdb
+
+Row count:             68,470,264
+Unique floats:                706
+Unique profiles:           52,240
+
+Latitude range:       -70.088  to    26.759
+Longitude range:       20.003  to   145.000
+Temperature range:     -2.034  to    39.151  °C
+Salinity range:         2.287  to    40.994  PSU
+Depth range:              0.0  to    5806.9  dbar
+
+Duplicate rows:        36,248,714
+Float ID anomalies:  0
+
+Sample records (3):
+             float_id  profile_number  cycle_number                  datetime  latitude  longitude      depth  temperature  salinity
+2022_01_20220104_prof               3           271 2022-01-05 03:41:39+05:30 -35.27789   27.24921 560.080017       12.725   35.1721
+2022_01_20220104_prof               9           189 2022-01-05 01:36:38+05:30 -19.22200   66.15200        NaN          NaN       NaN
+2022_01_20220104_prof              11           152 2022-01-05 01:02:19+05:30 -16.22420  117.20140 510.029999        8.714       NaN
+
+============================================================
+END OF REPORT
+============================================================

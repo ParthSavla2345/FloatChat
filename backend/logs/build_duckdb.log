@@ -1,0 +1,16 @@
+2026-07-18 22:37:10 | INFO     | build_duckdb | Connecting to DuckDB: D:\FloatChat\backend\data\processed\floatchat.duckdb
+2026-07-18 22:37:10 | INFO     | build_duckdb | Dropped existing argo_profiles table
+2026-07-18 22:37:10 | INFO     | build_duckdb | Creating argo_profiles table from D:\FloatChat\backend\data\processed\argo_profiles.parquet
+2026-07-18 22:39:27 | INFO     | build_duckdb | Imported 68,470,264 rows into argo_profiles
+2026-07-18 22:39:27 | INFO     | build_duckdb | Verifying schema...
+2026-07-18 22:39:27 | INFO     | build_duckdb |   file_name VARCHAR
+2026-07-18 22:39:27 | INFO     | build_duckdb |   float_id VARCHAR
+2026-07-18 22:39:27 | INFO     | build_duckdb |   profile_number BIGINT
+2026-07-18 22:39:27 | INFO     | build_duckdb |   cycle_number BIGINT
+2026-07-18 22:39:27 | INFO     | build_duckdb |   datetime TIMESTAMP WITH TIME ZONE
+2026-07-18 22:39:27 | INFO     | build_duckdb |   latitude DOUBLE
+2026-07-18 22:39:27 | INFO     | build_duckdb |   longitude DOUBLE
+2026-07-18 22:39:27 | INFO     | build_duckdb |   depth DOUBLE
+2026-07-18 22:39:27 | INFO     | build_duckdb |   temperature DOUBLE
+2026-07-18 22:39:27 | INFO     | build_duckdb |   salinity DOUBLE
+2026-07-18 22:39:27 | INFO     | build_duckdb | DuckDB build complete in 136.47 seconds — 68,470,264 rows

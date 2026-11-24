@@ -1,0 +1,1 @@
+# FloatChat services package

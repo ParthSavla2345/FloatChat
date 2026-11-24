@@ -1,0 +1,8 @@
+2026-07-18 22:39:53 | INFO     | generate_metadata | Connecting to Parquet: D:\FloatChat\backend\data\processed\argo_profiles.parquet
+2026-07-18 22:40:28 | INFO     | generate_metadata | Generated metadata for 706 floats
+2026-07-18 22:40:28 | INFO     | generate_metadata | Writing Parquet: D:\FloatChat\backend\data\processed\float_metadata.parquet
+2026-07-18 22:40:51 | INFO     | generate_metadata | Connecting to Parquet: D:\FloatChat\backend\data\processed\argo_profiles.parquet
+2026-07-18 22:40:56 | INFO     | generate_metadata | Generated metadata for 706 floats
+2026-07-18 22:40:56 | INFO     | generate_metadata | Writing Parquet: D:\FloatChat\backend\data\processed\float_metadata.parquet
+2026-07-18 22:40:56 | INFO     | generate_metadata | Writing JSON: D:\FloatChat\backend\data\processed\float_metadata.json
+2026-07-18 22:40:56 | INFO     | generate_metadata | Metadata generation complete in 5.06 seconds — 706 floats
